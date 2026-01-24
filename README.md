@@ -126,6 +126,13 @@ gh workflow run daily-pr-analysis.yml
 
 Or via GitHub UI: Actions → Daily PR Analysis → Run workflow
 
+## Blog Posts
+
+| Date | Title | Link |
+|------|-------|------|
+<!-- BLOG_LIST_START -->
+<!-- BLOG_LIST_END -->
+
 ## References
 
 - [GitHub Copilot CLI Documentation](https://docs.github.com/en/copilot/github-copilot-in-the-cli)

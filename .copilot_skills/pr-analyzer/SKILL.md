@@ -26,6 +26,16 @@ Construct the PR query URL: `https://github.com/{owner}/{repo}/pulls?q=is%3Apr+i
 - Example: `agent-framework-pr-summary-2026-01-23.md`
 - Save location: `blog/` folder in the current workspace directory
 
+**MUST update README.md** after generating the blog post:
+- Find the `## Blog Posts` section in `README.md`
+- Add a new row to the table between `<!-- BLOG_LIST_START -->` and `<!-- BLOG_LIST_END -->` markers
+- Format: `| {YYYY-MM-DD} | {Blog Title} | [Read](./blog/{filename}.md) |`
+- Insert new entries at the TOP of the list (newest first)
+- Example:
+  ```markdown
+  | 2026-01-23 | Agent Framework Updates - January 23, 2026 | [Read](./blog/agent-framework-pr-summary-2026-01-23.md) |
+  ```
+
 ## CRITICAL REQUIREMENTS
 
 1. **Web Scraping Only**: Use web scraping techniques, NOT GitHub API
