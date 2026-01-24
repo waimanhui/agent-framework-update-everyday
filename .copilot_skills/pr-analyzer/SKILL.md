@@ -43,7 +43,8 @@ Construct the PR query URL: `https://github.com/{owner}/{repo}/pulls?q=is%3Apr+i
 3. **Code Examples**: For each PR, fetch code changes from `https://github.com/{owner}/{repo}/pull/{id}` and display important code snippets
 4. **English Language**: Write the entire blog in English
 5. **Understanding Required**: Read and understand the code changes before extracting important snippets
-6. **Flexible Date Handling**: Support various date formats including:
+6. **Update README.md**: After generating the blog post, you MUST update the `## Blog Posts` table in `README.md` with the new entry
+7. **Flexible Date Handling**: Support various date formats including:
    - `yesterday`, `today`, `last week`
    - Specific date: `2026-01-20`
    - Date range: `2026-01-15 to 2026-01-20`
