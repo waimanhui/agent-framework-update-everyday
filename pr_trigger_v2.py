@@ -47,7 +47,7 @@ async def main():
     
     # Send the task to analyze PRs
     prompt = """
-Analyze PRs from https://github.com/microsoft/agent-framework merged yesterday， and write a detailed blog post summarizing the changes, including code examples where relevant.
+Analyze PRs from https://github.com/microsoft/agent-framework merged yesterday， and write a detailed blog post summarizing the changes, including code examples where relevant. Update the README.md file to include the new blog post in the `## Blog Posts` section. Follow all the requirements specified in the skill documentation.
 """
     
     # Increase timeout to 10 minutes for complex web scraping and analysis
