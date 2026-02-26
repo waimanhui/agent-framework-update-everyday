@@ -129,6 +129,7 @@ Or via GitHub UI: Actions → Daily PR Analysis → Run workflow
 ## Blog Posts
 
 <!-- BLOG_LIST_START -->
+| 2026-02-25 | Agent Framework Updates - February 25, 2026 | [Read](./blog/agent-framework-pr-summary-2026-02-25.md) |<br/>
 | 2026-02-24 | Agent Framework Updates - February 24, 2026 | [Read](./blog/agent-framework-pr-summary-2026-02-24.md) |<br/>
 | 2026-02-23 | Agent Framework Updates - February 23, 2026 | [Read](./blog/agent-framework-pr-summary-2026-02-23.md) |<br/>
 | 2026-02-22 | Agent Framework Updates - February 22, 2026 | [Read](./blog/agent-framework-pr-summary-2026-02-22.md) |<br/>
